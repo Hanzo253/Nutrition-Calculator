@@ -1,0 +1,177 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: url("healthy food background.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(108, 163, 26);
+}
+
+#food-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position: fixed;
+  // top: 0;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+}
+
+#search-bar {
+  width: 25%;
+  height: 50px;
+  border-radius: 1.625rem 0px 0px 1.625rem;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+  padding: 0 3.5rem 0 1.5rem;
+}
+
+#submit-btn {
+  background: none;
+  background-color: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 0px 1.625rem 1.625rem 0px;
+  //   margin-left: -3.5rem;
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  //   color: rgb(24, 94, 187);
+  color: white;
+  background-color: rgb(24, 94, 187);
+}
+
+#results {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: darkorange;
+  cursor: pointer;
+}
+
+li:hover {
+  color: forestgreen;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  height: 70%;
+}
+
+#calculate-modal {
+  display: none;
+}
+
+h2,
+p {
+  text-align: center;
+  color: darkorange;
+}
+
+h3 {
+  padding-left: 20px;
+}
+
+header {
+  color: crimson;
+  text-align: center;
+  width: 100%;
+}
+
+.close {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  width: 10%;
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+}
+
+#calculate {
+  @include flex-center();
+}
+
+#calculate-btn {
+  display: inline-block;
+  margin-top: 55px;
+  margin-left: 30px;
+  border-radius: 4px;
+  box-shadow: 0 9px #999;
+  font-size: 24px;
+  border: none;
+  color: white;
+  background-color: darkslateblue;
+  text-decoration: none;
+}
+
+#calculate-btn:hover {
+  background-color: rgb(48, 40, 100);
+}
+
+#calculate-btn:active {
+  background-color: darkslateblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#servings-bar {
+  width: 15%;
+  height: 20px;
+  border: 3px solid #00b4cc;
+  outline: none;
+  padding-right: 15px;
+  text-align: right;
+}
