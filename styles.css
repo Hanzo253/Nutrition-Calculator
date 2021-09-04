@@ -5,7 +5,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #6ca31a;
+  color: #0f8315;
 }
 
 #food-search {
@@ -64,12 +64,19 @@ ul {
   list-style-type: none;
 }
 
-li {
+.total {
+  color: #b62f72;
+  text-align: center;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.food {
   color: darkorange;
   cursor: pointer;
 }
 
-li:hover {
+.food:hover {
   color: forestgreen;
 }
 
@@ -105,24 +112,34 @@ li:hover {
   height: 70%;
 }
 
-#calculate-modal {
-  display: none;
+#total-text {
+  margin-top: 2rem;
 }
 
-h2,
-p {
+h2 {
   text-align: center;
-  color: darkorange;
+  color: #b9300e;
+  font-size: large;
 }
 
 h3 {
   padding-left: 20px;
 }
 
+h4 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   color: crimson;
   text-align: center;
   width: 100%;
+}
+
+footer {
+  text-align: center;
 }
 
 .close {
@@ -162,7 +179,8 @@ img {
 
 #calculate-btn {
   display: inline-block;
-  margin-top: 55px;
+  position: fixed;
+  margin-top: 80px;
   margin-left: 30px;
   border-radius: 4px;
   -webkit-box-shadow: 0 9px #999;
@@ -191,7 +209,6 @@ img {
   height: 20px;
   border: 3px solid #00b4cc;
   outline: none;
-  padding-right: 15px;
   text-align: right;
 }
 /*# sourceMappingURL=styles.css.map */
