@@ -14,3 +14,7 @@ Demo Link: https://hanzo253.github.io/Nutrition-Calculator/
 ## How I worked on this project
 
 - I worked with tasks on a ClickUp board: [Screenshot of tasks](https://lensdump.com/a/giQox)
+- I used Visual Studio Code as my IDE
+- Used jQuery for AJAX to fetch data from the Nutritionix API
+
+## How to navigate this project
