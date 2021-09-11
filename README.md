@@ -10,3 +10,7 @@ Project Specifications:
 - Total amount of nutrients gained will be shown after the app has calculated with the number of servings the user has inputted
 
 Demo Link: https://hanzo253.github.io/Nutrition-Calculator/
+
+## How I worked on this project
+
+- I worked with tasks on a ClickUp board: [Screenshot of tasks](https://lensdump.com/a/giQox)
