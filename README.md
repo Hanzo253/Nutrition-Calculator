@@ -34,7 +34,6 @@ Demo Link: https://hanzo253.github.io/Nutrition-Calculator/
 
 ## If I had more time I would change this
 
-- Unfortunately this API has problems fetching data in mobile devices, so I would find another that works with small devices
 - I would like to create a better design for the app and make it look smoother
 - Add integration testing, unit testing, and end-to-end testing
 - Add pictures of the selected food item to the modals, but the API I am currently using does not come with any images that work.
