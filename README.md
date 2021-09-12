@@ -1,4 +1,4 @@
-# Nutrition-Calculator [Finished but I will update it to polish the app a bit more]
+# Nutrition-Calculator
 
 A web app that lets users search up food to check how much nutrients it will give after it is consumed.
 
