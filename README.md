@@ -29,7 +29,7 @@ Demo Link: https://hanzo253.github.io/Nutrition-Calculator/
 
 - I wanted to improve on fetching data from API, so I felt like this project helped me learn how to use APIs better.
 - I did mostly HTML, CSS/SCSS, and vanilla JavaScript because I am focusing on becoming a developer with them
-- I used the Nutritionix API because it had nurtrition facts for brand foods
+- I used the Nutritionix API because it had nutrition facts for branded food
 - I developed this app to let users and myself be able to search for the nutrition facts of various food
 
 ## If I had more time I would change this
